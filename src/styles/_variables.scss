@@ -1,0 +1,34 @@
+//Colors
+$light-blue: hsl(178deg, 60%, 48%);
+$light-blue-hover: hsl(178deg, 75%, 65%);
+$light-yellow: hsl(39deg, 88%, 58%);
+$light-yellow-hover: hsl(39deg, 100%, 69%);
+$dark-navy: hsl(202deg, 32%, 15%);
+$semi-dark-navy: hsl(199deg, 35%, 19%);
+$silver: hsl(198deg, 23%, 72%);
+$silver-hover: hsl(197deg, 33%, 89%);
+$color-text: $silver;
+$color-background: $dark-navy;
+$color-primary: $light-yellow;
+$color-primary-hover: $light-yellow-hover;
+$color-primary-shadow: hsl(39deg, 83%, 44%);
+$color-secondary: $light-blue;
+$color-secondary-hover: $light-blue-hover;
+$color-secondary-shadow: hsl(178deg, 78%, 31%);
+$color-button-stroke: hsl(0deg, 0%, 59%);
+
+//Miscellaneous
+$button-border-radius: 15px;
+$button-large-padding: 17px 152px 25px;
+$button-small-padding: 15px 17px;
+$button-restart-padding: 16px;
+$font-family-main: var(--font-family);
+$font-family-mono: var(--font-family-mono);
+
+// Screen Sizes
+$mobile: 500px;
+$small: 650px;
+$tablet: 768px;
+$large: 1024px;
+$desktop: 1200px;
+$xlarge: 1440px;

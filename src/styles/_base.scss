@@ -1,0 +1,20 @@
+@use 'variables' as *;
+
+html {
+  max-width: 100vw;
+  overflow-x: hidden;
+  font-size: 100%;
+  color: $color-text;
+  font-family: $font-family-main, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  min-height: 100svh;
+  width: 100%;
+  background: $color-background;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
