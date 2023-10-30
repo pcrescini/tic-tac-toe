@@ -3,6 +3,8 @@ import React from 'react';
 import { Outfit, Spline_Sans_Mono } from 'next/font/google';
 import clsx from 'clsx';
 
+import RespectMotionPreferences from '@/components/RespectMotionPreferences';
+
 import './globals.scss';
 
 const mainFont = Outfit({
@@ -25,8 +27,10 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang='en' className={clsx(mainFont.variable, monoFont.variable)}>
-      <body>{children}</body>
-    </html>
+    <RespectMotionPreferences>
+      <html lang='en' className={clsx(mainFont.variable, monoFont.variable)}>
+        <body>{children}</body>
+      </html>
+    </RespectMotionPreferences>
   );
 }
