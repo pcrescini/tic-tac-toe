@@ -3,6 +3,7 @@ $light-blue: hsl(178deg, 60%, 48%);
 $light-blue-hover: hsl(178deg, 75%, 65%);
 $light-yellow: hsl(39deg, 88%, 58%);
 $light-yellow-hover: hsl(39deg, 100%, 69%);
+$light-red: hsl(7, 77%, 66%);
 $dark-navy: hsl(202deg, 32%, 15%);
 $semi-dark-navy: hsl(199deg, 35%, 19%);
 $silver: hsl(198deg, 23%, 72%);
@@ -19,11 +20,18 @@ $color-button-stroke: hsl(0deg, 0%, 59%);
 
 //Miscellaneous
 $button-border-radius: 15px;
-$button-large-padding: 17px 152px 25px;
-$button-small-padding: 15px 17px;
+$button-large-padding: 17px;
+$button-small-padding: 15px;
 $button-restart-padding: 16px;
 $font-family-main: var(--font-family);
 $font-family-mono: var(--font-family-mono);
+$font-size-heading-large: 2.5rem;
+$font-size-heading-medium: 1.5rem;
+$font-size-heading-small: 1.25rem;
+$font-size-heading-xsmall: 1rem;
+$font-size-body: 0.875rem;
+$global-transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+$global-border-radius: 15px;
 
 // Screen Sizes
 $mobile: 500px;

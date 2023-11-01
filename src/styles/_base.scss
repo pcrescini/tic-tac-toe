@@ -1,4 +1,5 @@
 @use 'variables' as *;
+@use 'mixins' as *;
 
 html {
   max-width: 100vw;
@@ -17,4 +18,74 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-size: $font-size-body;
+}
+
+button {
+  color: $dark-navy;
+  text-transform: uppercase;
+  width: 460px;
+  border: none;
+  border-radius: $button-border-radius;
+  transition: $global-transition;
+  font-size: $font-size-heading-small;
+
+  &.primary {
+    font-weight: bold;
+    background-color: $color-primary;
+    box-shadow: 0 8px 0 0 $color-primary-shadow;
+
+    &:hover {
+      background-color: $color-primary-hover;
+    }
+
+    &:focus {
+      background-color: $color-primary-hover;
+      outline: dashed $light-red;
+      outline-offset: 2px;
+    }
+  }
+
+  &.secondary {
+    font-weight: bold;
+    background-color: $color-secondary;
+    box-shadow: 0 8px 0 0 $color-secondary-shadow;
+
+    &:hover {
+      background-color: $color-secondary-hover;
+    }
+
+    &:focus {
+      background-color: $color-secondary-hover;
+      outline: dashed $light-red;
+      outline-offset: 2px;
+    }
+  }
+
+  &.large {
+    padding: $button-large-padding;
+  }
+
+  &.small {
+    padding: $button-small-padding;
+  }
+
+  &.restart {
+    padding: $button-restart-padding;
+  }
+
+  &.quit {
+    font-size: $font-size-heading-xsmall;
+  }
+
+  &.next-round {
+    font-size: $font-size-heading-xsmall;
+  }
+
+  @include tablet {
+  }
+
+  @include mobile {
+    width: 327px;
+  }
 }

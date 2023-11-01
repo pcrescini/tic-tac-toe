@@ -22,7 +22,7 @@ function Toggle({ value, onChange, ...delegated }) {
           duration: 0.2,
         }}
         animate={{
-          x: value ? '100%' : '0%',
+          x: value ? '350px' : '0%',
         }}
       />
     </button>

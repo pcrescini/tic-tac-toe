@@ -1,0 +1,27 @@
+@use '@/styles/variables' as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 24px;
+  width: 460px;
+  padding: 24px;
+  background-color: $semi-dark-navy;
+  border-radius: $global-border-radius;
+  text-transform: uppercase;
+  font-size: $font-size-heading-xsmall;
+}
+
+.note {
+  font-size: $font-size-body;
+}
