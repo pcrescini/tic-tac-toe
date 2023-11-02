@@ -1,7 +1,6 @@
 import React from 'react';
+import Banner from '@/components/Banner';
 
-function LostBanner() {
-  return <div></div>;
+export default function LostBanner() {
+  return <Banner gameStatus={lost}>Oh no, you lost...</Banner>;
 }
-
-export default LostBanner;

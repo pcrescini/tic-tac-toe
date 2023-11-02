@@ -1,7 +1,6 @@
 import React from 'react';
+import Banner from '@/components/Banner';
 
-function WonBanner() {
-  return <div></div>;
+export default function WonBanner() {
+  return <Banner gameStatus={won}>You won!</Banner>;
 }
-
-export default WonBanner;
