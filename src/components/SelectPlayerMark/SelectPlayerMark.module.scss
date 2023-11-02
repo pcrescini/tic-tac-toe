@@ -21,3 +21,11 @@
   background: oklch(0.92 0.22 101.1);
   border-radius: 1000px;
 }
+
+.selectMark {
+  svg {
+    path {
+      fill: #a8a8a8;
+    }
+  }
+}
