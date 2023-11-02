@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Logo() {
+export default function Logo() {
   return (
     <svg width='72' height='32' xmlns='http://www.w3.org/2000/svg'>
       <g fill='none' fill-rule='evenodd'>
@@ -17,5 +17,3 @@ function Logo() {
     </svg>
   );
 }
-
-export default Logo;

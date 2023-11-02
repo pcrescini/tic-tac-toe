@@ -1,7 +1,5 @@
 import React from 'react';
 
-function GameBoard() {
+export default function GameBoard() {
   return <div></div>;
 }
-
-export default GameBoard;

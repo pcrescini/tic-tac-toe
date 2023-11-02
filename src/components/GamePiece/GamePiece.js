@@ -1,7 +1,5 @@
 import React from 'react';
 
-function GamePiece() {
+export default function GamePiece() {
   return <div></div>;
 }
-
-export default GamePiece;
