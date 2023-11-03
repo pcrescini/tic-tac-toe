@@ -23,6 +23,38 @@
 }
 
 .selectMark {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: $global-border-radius;
+
+  input[type='radio'] {
+    display: none;
+  }
+
+  label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    border-radius: $global-border-radius;
+  }
+
+  input:checked {
+    & + label {
+      background-color: $silver;
+
+      svg {
+        path {
+          fill: $dark-navy;
+        }
+      }
+    }
+  }
+
   svg {
     path {
       fill: #a8a8a8;

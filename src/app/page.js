@@ -1,12 +1,12 @@
 import React from 'react';
 
-import GameStart from '@/components/GameStart';
+import TicTacToe from '@/components/TicTacToe';
 import styles from './page.module.scss';
 
 export default function Home() {
   return (
     <main className={styles.main}>
-      <GameStart />
+      <TicTacToe />
     </main>
   );
 }
